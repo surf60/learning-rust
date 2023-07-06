@@ -14,4 +14,7 @@ fn main(){
 
         age = 500;
         println!("Age: {}", age);
+
+        const PI: f32 = 3.14;
+        print!("PI is: {}",PI)
 }
