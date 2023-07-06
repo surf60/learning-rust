@@ -4,6 +4,7 @@ fn main(){
     // printting a variable
     print!("{}",age);
     // "{}" is a placeholder
-    println!("{}, age = {}", name, age);
-    // each variable replaces placeholder x in sucsession
+    println!("{1}, age = {0}", name, age);
+    // each variable replaces placeholder x in sucsession unless specified
+    println!("name = {}\n age = {}",name,age);
 }
