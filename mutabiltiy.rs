@@ -12,9 +12,11 @@ fn main(){
         let name = "Jackie";
         println!("Name: {}", name);
 
+        // reassigning a variable
         age = 500;
         println!("Age: {}", age);
-
+        
+        //this is a constant
         const PI: f32 = 3.14;
         print!("PI is: {}",PI)
 }
