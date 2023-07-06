@@ -1,6 +1,7 @@
 fn main(){
         // variable to store integer value
-        let age = 31;
+        // mut makes it mutable
+        let mut age = 31;
         println!("Age: {}", age);
     
         // variable to store floating-point value
@@ -10,4 +11,7 @@ fn main(){
         // variable to store string
         let name = "Jackie";
         println!("Name: {}", name);
+
+        age = 500;
+        println!("Age: {}", age);
 }
