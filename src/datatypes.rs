@@ -25,6 +25,9 @@ fn main() {
     println!("x ={x}");
     println!("y ={y}");*/
     // boolean values
-    let x: bool = true;
-    println!("x is {x}")
+    /*let x: bool = true;
+    println!("x is {x}")*/
+    // char type
+    let x: char = 'z';
+    println!("this is a char type var {x}");
 }
