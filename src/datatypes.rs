@@ -17,11 +17,14 @@ fn main() {
 
     println!("x = {x}");*/
     // f32 floating point
-    let x: f32 = 5.9;
+    /*let x: f32 = 5.9;
 
     // f64 floating point
     let y: f64 = 8.000000000000003;
 
     println!("x ={x}");
-    println!("y ={y}");
+    println!("y ={y}");*/
+    // boolean values
+    let x: bool = true;
+    println!("x is {x}")
 }
