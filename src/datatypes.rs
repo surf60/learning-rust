@@ -13,7 +13,15 @@ fn main() {
     println!("y = {y}");*/
     
     //unsigned integer type (positive only)
-    let x: u32 = 300;
+    /*let x: u32 = 300;
 
-    println!("x = {x}");
+    println!("x = {x}");*/
+    // f32 floating point
+    let x: f32 = 5.9;
+
+    // f64 floating point
+    let y: f64 = 8.000000000000003;
+
+    println!("x ={x}");
+    println!("y ={y}");
 }
